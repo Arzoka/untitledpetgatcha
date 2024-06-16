@@ -1,0 +1,44 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider  = "postgresql"
+  url       = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
+}
+
+model Pet {
+  PetIdUserId String   @id @unique @default(uuid())
+  id          String
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  name        String
+  rarity      String
+  quantity    Int
+  userId      String?
+  User        User?    @relation(fields: [userId], references: [id])
+}
+
+model User {
+  id           String    @id @unique @default(uuid())
+  createdAt    DateTime  @default(now())
+  updatedAt    DateTime  @updatedAt
+  rolls        Int       @default(0)
+  username     String
+  daily_reward DateTime? @db.Timestamp(6)
+  Items        Items[]
+  pets         Pet[]
+}
+
+model Items {
+  ItemIdUserId String   @id @unique(map: "Items_PetIdUserId_idx")
+  id           String
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+  name         String
+  rarity       String
+  quantity     Int
+  userId       String?
+  User         User?    @relation(fields: [userId], references: [id])
+}

@@ -1,0 +1,90 @@
+{
+	"common": [
+		{
+			"id": "taiga-1-c-taigablep",
+			"name": "Taiga blep",
+			"emoji": "<:taigablep:1251592636427669564>",
+			"image": "",
+			"rarity": "common"
+		}
+	],
+	"uncommon": [
+		{
+			"id": "taiga-1-u-taigacrazy",
+			"name": "Taiga Crazy",
+			"emoji": "<:taigacrazy:1251595376218083409>",
+			"image": "",
+			"rarity": "uncommon"
+		}
+	],
+	"rare": [
+		{
+			"id": "taiga-1-r-taigaemo",
+			"name": "Taiga Emo",
+			"emoji": "<:taigaemo:1251595377786753165>",
+			"image": "",
+			"rarity": "rare"
+		}
+	],
+	"epic": [
+		{
+			"id": "taiga-1-e-taigahyper",
+			"name": "Taiga Hyper",
+			"emoji": "<:taigahyper:1251595379087245364>",
+			"image": "",
+			"rarity": "epic"
+		}
+	],
+	"legendary": [
+		{
+			"id": "taiga-1-l-taigawet",
+			"name": "Taiga Wet",
+			"emoji": "<:taigawet:1251595380618170459>",
+			"image": "",
+			"rarity": "legendary"
+		}
+	],
+	"mythical": [
+		{
+			"id": "taiga-1-m-taigaattention",
+			"name": "Taiga Attention",
+			"emoji": "<:taigaattention:1251595381662416907>",
+			"image": "",
+			"rarity": "mythical"
+		}
+	],
+	"godly": [
+		{
+			"id": "taiga-1-g-taigasailor",
+			"name": "Taiga Sailor",
+			"emoji": "<:taigasailor:1251595383650517012>",
+			"image": "",
+			"rarity": "godly"
+		},
+		{
+			"id": "taiga-1-g-taigamotorcycle",
+			"name": "Taiga Motorcycle",
+			"emoji": "<:taigamotorcycle:1251595385722503230>",
+			"image": "",
+			"rarity": "godly"
+		}
+	],
+	"hidden": [
+		{
+			"id": "taiga-1-h-taigagrandmaster",
+			"name": "Taiga Grandmaster",
+			"emoji": "<:taigagrandmaster:1251595387656212605>",
+			"image": "",
+			"rarity": "hidden"
+		}
+	],
+	"unobtainable": [
+		{
+			"id": "kitten-1-un-dancingkitten",
+			"name": "Dancing Kitten",
+			"emoji": "<a:dancingkitten:1251840270602076194>",
+			"image": "",
+			"rarity": "unobtainable"
+		}
+	]
+}

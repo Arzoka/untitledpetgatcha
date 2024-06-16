@@ -1,0 +1,34 @@
+{
+	"common": [
+		{
+			"id": "item-1-c-petbasket",
+			"name": "Pet Basket",
+			"emoji": "<:petbasket:1251971102029250570>",
+			"image": "",
+			"rarity": "common"
+		}
+	],
+	"uncommon": [
+	],
+	"rare": [
+		{
+			"id": "item-1-r-dailylootbox",
+			"name": "Daily Lootbox",
+			"emoji": "<:lootbox:1251921387552243884>",
+			"image": "",
+			"rarity": "rare"
+		}
+	],
+	"epic": [
+	],
+	"legendary": [
+	],
+	"mythical": [
+	],
+	"godly": [
+	],
+	"hidden": [
+	],
+	"unobtainable": [
+	]
+}
